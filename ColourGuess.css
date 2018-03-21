@@ -1,25 +1,34 @@
-body { 
-  background-color: #232323; 
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat ", "Avenir";
 }
-.square { 
-  width: 30%; 
-  background: purple; 
-  padding-bottom: 30%; 
-  float: left; 
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
   margin: 1.66%;
 }
-#container { 
-  margin: 0 auto; 
-  max-width: 600px; 
+#container {
+  margin: 0 auto;
+  max-width: 600px;
 }
-h1 { 
+h1 {
+  text-align: center;
   color: white;
+  background: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
 }
-span { 
-  color: white;
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
 }
-#stripe { 
-  background-color: white; 
-  height: 30px; 
-  text-align: center; 
+.selected {
+
+  background: blue;
 }
